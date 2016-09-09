@@ -1,3 +1,4 @@
+//Justin Massetto
 int x = 0;
 int y = 20;
 int z = 40;
@@ -32,4 +33,3 @@ void triangle()
   fill (0,0,250);
   triangle(y,160,x,200,z,200);
 }
-
