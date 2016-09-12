@@ -14,20 +14,20 @@ void draw ()
   if (mousePressed == true) {
     ellipse(450,470,150,100);
     ellipse(450,470,55,95);
-  } else{
+  } else {
     triangle(450,350,150,750,750,750);
   }
   ellipse(mouseX + 20,mouseY + 210,20,20);
   rect(mouseX,mouseY,30,30);
   circle();
-  triangle();
+  hello();
 }
 void circle()
 {
   fill (250,0,0);
   ellipse(x,100,60,60);
 }
-void triangle()
+void hello()
 {
   fill (0,0,250);
   triangle(y,160,x,200,z,200);
